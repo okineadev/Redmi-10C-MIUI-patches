@@ -1,0 +1,260 @@
+Author: Okinea Dev <hi@okinea.dev>
+Description: This patch removes the `cust.img` file and all references to it from the flashing scripts, partition configurations, and related files.
+
+diff --git a/images/cust.img b/images/cust.img
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/cust.img and /dev/null differ
+
+diff --git a/flash_all.bat b/flash_all.bat
+index 0000000..0000000 100755
+--- a/flash_all.bat
++++ b/flash_all.bat
+@@ -77,7 +77,6 @@ fastboot %* flash metadata %~dp0images\metadata.img || @echo "Flash metadata err
+ ::fastboot %* flash persist %~dp0images\persist.img || @echo "Flash persist error" && exit /B 1
+ fastboot %* flash rescue %~dp0images\rescue.img || @echo "Flash rescue error" && exit /B 1
+ fastboot %* flash super %~dp0images\super.img || @echo "Flash super error" && exit /B 1
+-fastboot %* flash cust %~dp0images\cust.img || @echo "Flash super error" && exit /B 1
+ fastboot %* erase userdata
+ fastboot %* flash userdata %~dp0images\userdata.img || @echo "Flash userdata error" && exit /B 1
+ 
+diff --git a/flash_all.sh b/flash_all.sh
+index 0000000..0000000 100755
+--- a/flash_all.sh
++++ b/flash_all.sh
+@@ -79,7 +79,6 @@ fastboot $* flash metadata   `dirname $0`/images/metadata.img
+ #fastboot $* flash persist   `dirname $0`/images/persist.img
+ fastboot $* flash rescue   `dirname $0`/images/rescue.img
+ fastboot $* flash super   `dirname $0`/images/super.img
+-fastboot $* flash cust `dirname $0`/images/cust.img
+ fastboot $* erase userdata
+ fastboot $* flash userdata   `dirname $0`/images/userdata.img
+ 
+diff --git a/flash_all_except_data_storage.bat b/flash_all_except_data_storage.bat
+index 0000000..0000000 100755
+--- a/flash_all_except_data_storage.bat
++++ b/flash_all_except_data_storage.bat
+@@ -74,7 +74,6 @@ fastboot %* flash vbmeta_system_b %~dp0images\vbmeta_system.img || @echo "Flash
+ ::fastboot %* flash persist %~dp0images\persist.img || @echo "Flash persist error" && exit /B 1
+ fastboot %* flash rescue %~dp0images\rescue.img || @echo "Flash rescue error" && exit /B 1
+ fastboot %* flash super %~dp0images\super.img || @echo "Flash super error" && exit /B 1
+-fastboot %* flash cust %~dp0images\cust.img || @echo "Flash super error" && exit /B 1
+ 
+ fastboot %* getvar unlocked 2>&1 | findstr /r "yes" 2>&1 && fastboot %* set_active a
+ fastboot %* oem erase-vb-index
+diff --git a/flash_all_except_data_storage.sh b/flash_all_except_data_storage.sh
+index 0000000..0000000 100755
+--- a/flash_all_except_data_storage.sh
++++ b/flash_all_except_data_storage.sh
+@@ -78,7 +78,6 @@ fastboot $* flash vbmeta_system_b   `dirname $0`/images/vbmeta_system.img
+ #fastboot $* flash persist   `dirname $0`/images/persist.img
+ fastboot $* flash rescue   `dirname $0`/images/rescue.img
+ fastboot $* flash super   `dirname $0`/images/super.img
+-fastboot $* flash cust `dirname $0`/images/cust.img
+ 
+ fastboot $* set_active a
+ fastboot $* oem erase-vb-index
+diff --git a/flash_all_lock.bat b/flash_all_lock.bat
+index 0000000..0000000 100755
+--- a/flash_all_lock.bat
++++ b/flash_all_lock.bat
+@@ -77,7 +77,6 @@ fastboot %* flash metadata %~dp0images\metadata.img || @echo "Flash metadata err
+ ::fastboot %* flash persist %~dp0images\persist.img || @echo "Flash persist error" && exit /B 1
+ fastboot %* flash rescue %~dp0images\rescue.img || @echo "Flash rescue error" && exit /B 1
+ fastboot %* flash super %~dp0images\super.img || @echo "Flash super error" && exit /B 1
+-fastboot %* flash cust %~dp0images\cust.img || @echo "Flash super error" && exit /B 1
+ fastboot %* erase userdata
+ fastboot %* flash userdata %~dp0images\userdata.img || @echo "Flash userdata error" && exit /B 1
+ 
+diff --git a/flash_all_lock.sh b/flash_all_lock.sh
+index 0000000..0000000 100755
+--- a/flash_all_lock.sh
++++ b/flash_all_lock.sh
+@@ -79,7 +79,6 @@ fastboot $* flash metadata   `dirname $0`/images/metadata.img
+ #fastboot $* flash persist   `dirname $0`/images/persist.img
+ fastboot $* flash rescue   `dirname $0`/images/rescue.img
+ fastboot $* flash super   `dirname $0`/images/super.img
+-fastboot $* flash cust `dirname $0`/images/cust.img
+ fastboot $* erase userdata
+ fastboot $* flash userdata   `dirname $0`/images/userdata.img
+ 
+diff --git a/flash_gen_crc_list.py b/flash_gen_crc_list.py
+index 0000000..0000000 100755
+--- a/flash_gen_crc_list.py
++++ b/flash_gen_crc_list.py
+@@ -7,7 +7,6 @@ import binascii
+ sparse_file_list = {
+     "super":"super.img",
+     "userdata":"userdata.img",
+-    "cust":"cust.img",
+     "metadata":"metadata.img",
+     "rescue":"rescue.img",
+ }
+diff --git a/images/crclist.txt b/images/crclist.txt
+index 0000000..0000000 100644
+--- a/images/crclist.txt
++++ b/images/crclist.txt
+@@ -1,24 +1,24 @@
+ CRC-LIST
+-modem_ab 0xa9ae5fdc
+-storsec 0x2de1303a
+-vbmeta_system_ab 0x3c3542a
+-dtbo_ab 0xb90d9330
++xbl_ab 0x3253b42a
++xbl_config_ab 0x98b19243
++abl_ab 0xad751ae7
+ rpm_ab 0xc3bd312
+-multiimgoem_ab 0x3259af75
+-uefisecapp_ab 0x5e4f860c
+ tz_ab 0x1131e3f3
+-logfs 0x62f52b13
+-boot_ab 0xb81001df
+-devcfg_ab 0x436a9454
+-dsp_ab 0x5657473
+-abl_ab 0xad751ae7
+-imagefv_ab 0xd4418aeb
+-vbmeta_ab 0xac3a554f
+-qupfw_ab 0xa77e4172
+-xbl_config_ab 0x98b19243
++featenabler_ab 0x14fa9a23
+ hyp_ab 0x28885646
++modem_ab 0xa9ae5fdc
++bluetooth_ab 0x817b0f9b
++dsp_ab 0x5657473
+ keymaster_ab 0xcb6b4b1e
++devcfg_ab 0x436a9454
++qupfw_ab 0xa77e4172
++uefisecapp_ab 0x5e4f860c
++imagefv_ab 0xd4418aeb
++multiimgoem_ab 0x3259af75
++storsec 0x2de1303a
+ vendor_boot_ab 0x168b8304
+-bluetooth_ab 0x817b0f9b
+-xbl_ab 0x3253b42a
+-featenabler_ab 0x14fa9a23
++dtbo_ab 0xb90d9330
++vbmeta_ab 0xac3a554f
++vbmeta_system_ab 0x3c3542a
++boot_ab 0xb81001df
++logfs 0x62f52b13
+diff --git a/images/partition.xml b/images/partition.xml
+index 0000000..0000000 100755
+--- a/images/partition.xml
++++ b/images/partition.xml
+@@ -20,8 +20,7 @@
+         <partition label="keystore" size_in_kb="512" type="DE7D4029-0F5B-41C8-AE7E-F6C023A02B33" bootable="false" readonly="false" filename="" />
+         <partition label="frp" size_in_kb="512" type="91B72D4D-71E0-4CBF-9B8E-236381CFF17A" bootable="false" readonly="false" filename=""/>
+         <partition label="minidump" size_in_kb="131072" type="71D24153-E4E2-4275-815C-08E10959803B" bootable="false" readonly="false" filename=""/>
+-        <partition label="cust" size_in_kb="2097152" type="0FC63DAF-8483-4772-8E79-3D69D8477DE4" bootable="false" readonly="true" filename="cust.img" sparse="true" />
+-	<partition label="super" size_in_kb="8912896" type="89A12DE1-5E41-4CB3-8B4C-B1441EB5DA38" bootable="false" readonly="false" filename="super.img" sparse="true"/>
++      <partition label="super" size_in_kb="8912896" type="89A12DE1-5E41-4CB3-8B4C-B1441EB5DA38" bootable="false" readonly="false" filename="super.img" sparse="true"/>
+         <partition label="vbmeta_system_a" size_in_kb="64" type="1344859D-3A6A-4C14-A316-9E696B3A5400" bootable="false" readonly="true" filename="vbmeta_system.img"/>
+         <partition label="vbmeta_system_b" size_in_kb="64" type="FE3AB853-5B66-4D4A-BF85-8D90AF1C2C4A" bootable="false" readonly="true" filename="vbmeta_system.img"/>
+ 		<partition label="metadata" size_in_kb="16384" type=" 988A98C9-2910-4123-AAEC-1CF6B1BC28F9" bootable="false" readonly="false" filename="metadata.img" sparse="true"/>
+diff --git a/images/rawprogram0.xml b/images/rawprogram0.xml
+index 0000000..0000000 100644
+--- a/images/rawprogram0.xml
++++ b/images/rawprogram0.xml
+@@ -9,7 +9,6 @@
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="" label="keystore" num_partition_sectors="128" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="512.0" sparse="false" start_byte_hex="0x2308000" start_sector="8968"/>
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="" label="frp" num_partition_sectors="128" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="512.0" sparse="false" start_byte_hex="0x2388000" start_sector="9096"/>
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="" label="minidump" num_partition_sectors="32768" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="131072.0" sparse="false" start_byte_hex="0x2408000" start_sector="9224"/>
+-  <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="cust.img" label="cust" num_partition_sectors="524288" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="2097152.0" sparse="true" start_byte_hex="0xa408000" start_sector="41992"/>
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="super.img" label="super" num_partition_sectors="2228224" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="8912896.0" sparse="true" start_byte_hex="0x8a408000" start_sector="566280"/>
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="vbmeta_system.img" label="vbmeta_system_a" num_partition_sectors="16" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="64.0" sparse="false" start_byte_hex="0x2aa408000" start_sector="2794504"/>
+   <program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="vbmeta_system.img" label="vbmeta_system_b" num_partition_sectors="16" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="64.0" sparse="false" start_byte_hex="0x2aa418000" start_sector="2794520"/>
+diff --git a/images/sparsecrclist.txt b/images/sparsecrclist.txt
+index 0000000..0000000 100644
+--- a/images/sparsecrclist.txt
++++ b/images/sparsecrclist.txt
+@@ -1,6 +1,5 @@
+ SPARSECRC-LIST
+-userdata 1 0xa3e28841
+-rescue 1 0x5c4e9d6
+ super 11 0xa73aef46 0x59915cc7 0xb9a6c4a6 0xcc192319 0xc5a1543 0x6fa9e 0xfbc694e 0x4403e2b 0x1e6c250a 0xae1b90cc 0x6fc37abb
+-cust 2 0xec096dad 0xe2ed7279
++userdata 1 0xa3e28841
+ metadata 1 0x105528d5
++rescue 1 0x5c4e9d6
+diff --git a/md5sum.xml b/md5sum.xml
+new file mode 100644
+index 0000000..0000000
+--- /dev/null
++++ b/md5sum.xml
+@@ -0,0 +1,76 @@
++<?xml version="1.0" ?>
++<root>
++  <digests>
++    <digest name="gpt_both3.bin" hash="md5">f1e402604e37c1b0d8e2cf05df82e83a</digest>
++    <digest name="hyp.mbn" hash="md5">bf05698fe68eb0cac53e7f9a6a0ba83d</digest>
++    <digest name="metadata.img" hash="md5">861d1cd059e179bfde4daf4be8fb8990</digest>
++    <digest name="dspso.bin" hash="md5">d08b729bb78ae4d9689e44013ad1810c</digest>
++    <digest name="gpt_main1.bin" hash="md5">3797f5f3876ec6c8bac6cbfa94f84455</digest>
++    <digest name="rawprogram3.xml" hash="md5">e03411d04b290ffe1ea9b993d1f23074</digest>
++    <digest name="gpt_both5.bin" hash="md5">663402beaa3fbd528212a1407c005830</digest>
++    <digest name="gpt_main4.bin" hash="md5">b840e64531e141209bb48d3b8eeb7387</digest>
++    <digest name="patch1.xml" hash="md5">0780990ee59934bdcaffc918cac99aed</digest>
++    <digest name="storsec.mbn" hash="md5">68a0d04200b9df2f52093b7f4c6ff580</digest>
++    <digest name="anti_version.txt" hash="md5">897316929176464ebc9ad085f31e7284</digest>
++    <digest name="vbmeta.img" hash="md5">8b1889e13970d9a6a61eb2b8a966ae36</digest>
++    <digest name="rawprogram1.xml" hash="md5">6dae31a6f420849f62fa8c42474a7890</digest>
++    <digest name="BTFM.bin" hash="md5">a728ef9a929cf2dbb76f7497b55133c3</digest>
++    <digest name="misc.img" hash="md5">0829f71740aab1ab98b33eae21dee122</digest>
++    <digest name="vmlinux" hash="md5">3199daeb922d3a8f7277bdd4a8816d24</digest>
++    <digest name="elf_path.txt" hash="md5">e31a43de8cfba865d811d373a4727b20</digest>
++    <digest name="gpt_backup2.bin" hash="md5">ac9085ed09fc5914c212844b0366d5a7</digest>
++    <digest name="tz.mbn" hash="md5">ae7c0978e5474e249cdf06974c1a8501</digest>
++    <digest name="rawprogram4.xml" hash="md5">35045f99898d67bdb9794b4dc1e99619</digest>
++    <digest name="dummy.bin" hash="md5">6811c482ead27c0b1165ecfbe996c2b4</digest>
++    <digest name="gpt_backup3.bin" hash="md5">d0052d0e878a37f453fd9f05de3d58a0</digest>
++    <digest name="xbl.elf" hash="md5">de362a43e2fc3cf1479763a19214d67d</digest>
++    <digest name="rescue.img" hash="md5">60284a07ea2d6c274a89e14826aac791</digest>
++    <digest name="gpt_backup0.bin" hash="md5">94527d060a5be0239b89547be5b27041</digest>
++    <digest name="gpt_main3.bin" hash="md5">c726e8bee98864691c726049d77ed09e</digest>
++    <digest name="NON-HLOS.bin" hash="md5">63b4b72bc609fb0b220bdfd8e4cb12cc</digest>
++    <digest name="crclist.txt" hash="md5">3908a84e6768b378cc9a2d5131007751</digest>
++    <digest name="gpt_main0.bin" hash="md5">b9746a1b58ad30b2ccca6fcb936f9985</digest>
++    <digest name="patch2.xml" hash="md5">81036277fd056a16c0e418a756a5a835</digest>
++    <digest name="multi_image.mbn" hash="md5">2be518fe3af47a7043e7dd220896ec8b</digest>
++    <digest name="featenabler.mbn" hash="md5">442b8cec0d13dce090a9f04e4fdf55ee</digest>
++    <digest name="userdata.img" hash="md5">5c41aca8b38ed590017b9662603cfdb4</digest>
++    <digest name="xbl_config.elf" hash="md5">5f7f8624fba0849572b51763d9fc949c</digest>
++    <digest name="patch4.xml" hash="md5">25ed9c610e4e04e3916ec284badc97b8</digest>
++    <digest name="devcfg.mbn" hash="md5">47f3937e4daf5b1520fd698c49abad98</digest>
++    <digest name="vendor_boot.img" hash="md5">440266f58bc136da67ee7253b4d6a0b1</digest>
++    <digest name="qupv3fw.elf" hash="md5">3ee00ef348e78e439c509ae51d5391bc</digest>
++    <digest name="dtbo.img" hash="md5">7280b269230f834270f5a068a1dcfb7c</digest>
++    <digest name="rawprogram0.xml" hash="md5">1b6ab3842321c7fa2725826fbefd36d0</digest>
++    <digest name="rawprogram2.xml" hash="md5">87a254cdf2b4fe73981133a78a275b07</digest>
++    <digest name="patch3.xml" hash="md5">f1e955eeee449ed57767ac0b87552cf1</digest>
++    <digest name="gpt_both4.bin" hash="md5">64ab0d2407750a3dd1cfeb70587ca3f1</digest>
++    <digest name="gpt_both0.bin" hash="md5">c55532ae3877ee5a7f75eff65ab93ced</digest>
++    <digest name="logfs_ufs_8mb.bin" hash="md5">c040a889d66a4f120f502f89b551f42b</digest>
++    <digest name="gpt_main2.bin" hash="md5">8aab178aa7134ab8df738f747df92ef3</digest>
++    <digest name="prog_firehose_lite.elf" hash="md5">4ddda7369b43d2a14172ea2caab62a15</digest>
++    <digest name="uefi_sec.mbn" hash="md5">6c06c0a6c8be37cc9c6fb53df76036c9</digest>
++    <digest name="rawprogram5.xml" hash="md5">00a958bc6e9a240d0462485da7eb55a0</digest>
++    <digest name="super.img" hash="md5">fae951bcfd001e2bcea8f68e305ed018</digest>
++    <digest name="config.bin" hash="md5">bb7df04e1b0a2570657527a7e108ae23</digest>
++    <digest name="dummy.img" hash="md5">0829f71740aab1ab98b33eae21dee122</digest>
++    <digest name="gpt_backup4.bin" hash="md5">62020e8b46928d3fb33a52a0814f395c</digest>
++    <digest name="gpt_backup5.bin" hash="md5">8f183c63de8eb104bfad32b1e7f9fd82</digest>
++    <digest name="km41.mbn" hash="md5">5be36cd6f0b6db36c78960817299ca4c</digest>
++    <digest name="gpt_backup1.bin" hash="md5">bfc20b913bc84afcf7e66ba8890e3f25</digest>
++    <digest name="partition.xml" hash="md5">8c16e59329e940b5f014d631c26730f6</digest>
++    <digest name="gpt_main5.bin" hash="md5">07e074cb737c1c2fae3a6f7e1ff22d7e</digest>
++    <digest name="patch5.xml" hash="md5">12151925ae684f9f2286770e33f4bb91</digest>
++    <digest name="boot.img" hash="md5">5980595addd24fe16c743ffde172dd1e</digest>
++    <digest name="gpt_both2.bin" hash="md5">48cf15be457cd3c049a9d034f08586de</digest>
++    <digest name="prog_firehose_ddr.elf" hash="md5">8fc57ceb9d55da6ecc2a43144f4b8116</digest>
++    <digest name="sparsecrclist.txt" hash="md5">1ac4ad92812250559b05cbc3d7692e20</digest>
++    <digest name="imagefv.elf" hash="md5">c024460078b9eed4a46ab175dc385d10</digest>
++    <digest name="gpt_both1.bin" hash="md5">f816a310a8928ee8c8d88924fd60a924</digest>
++    <digest name="about.html" hash="md5">820d4656ae1d6f7a2f368bfe2975c6b8</digest>
++    <digest name="abl.elf" hash="md5">3803f84c5862d888e894df2faea37861</digest>
++    <digest name="vbmeta_system.img" hash="md5">4effd54e3b5e7c068c25f1628ae4b184</digest>
++    <digest name="persist.img" hash="md5">008a90cecd03a71da6f810ba0e1257bd</digest>
++    <digest name="rpm.mbn" hash="md5">d196ca6a76745318476e73e3239ee134</digest>
++    <digest name="patch0.xml" hash="md5">5af3747bff6979c8c27703dcc2b02872</digest>
++  </digests>
++</root>

@@ -1,0 +1,96 @@
+Author: Okinea Dev <hi@okinea.dev>
+Description: This patch updates Python scripts to be compatible with Python 3.
+
+diff --git a/flash_gen_crc_list.py b/flash_gen_crc_list.py
+index 0000000..0000000 100755
+--- a/flash_gen_crc_list.py
++++ b/flash_gen_crc_list.py
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env python
+ from __future__ import print_function
+-import getopt, posixpath, signal, struct, sys
++import struct
+ import os, copy
+ import binascii
+ 
+@@ -103,7 +103,7 @@ def read_chunk_from_file(FH,blk_sz):
+     header_bin = FH.read(12)
+     header = struct.unpack("<2H2I", header_bin)
+     chunk.type = header[0]
+-    reserved1 = header[1]
++    # reserved1 = header[1]
+     chunk.size = header[2]
+     chunk.total_sz = header[3]
+     chunk.bksz = blk_sz
+@@ -140,14 +140,14 @@ def calulate_sparse_chunk_crc(chunk,crc):
+     if chunk.type == 0xCAC1:
+       crc = binascii.crc32(chunk.data,crc)
+     elif chunk.type == 0xCAC2:
+-      fill_buf = chunk.data*(chunk.bksz/chunk.data_sz)
+-      for j in xrange(1,chunk.size+1):
++      fill_buf = chunk.data * (chunk.bksz // chunk.data_sz)  # Use integer division
++      for _ in range(1,chunk.size+1):
+         crc = binascii.crc32(fill_buf,crc)
+     return crc
+ 
+ def gen_sparse_crc(path):
+     sparse_parts = 0
+-    crc_result_list = [0 for i in range(MAX_SPARSE_PARTS)]
++    crc_result_list = [0 for _ in range(MAX_SPARSE_PARTS)]
+     backedsize = [SPARSE_IMAGE_HEAD_SZ]
+ 
+     FH = open(path, 'rb')
+@@ -163,7 +163,7 @@ def gen_sparse_crc(path):
+     total_blks = header[6]
+     total_chunks = header[7]
+     image_checksum = header[8]
+-    image_sz = 0
++    # image_sz = 0
+ 
+     if magic != 0xED26FF3A:
+       raise Exception("%s: Magic should be 0xED26FF3A but is 0x%08X"
+@@ -184,9 +184,9 @@ def gen_sparse_crc(path):
+     if image_checksum != 0:
+       print("checksum=0x%08X" % (image_checksum))
+ 
+-    offset = 0
++    # offset = 0
+ 
+-    for i in xrange(1,total_chunks+1):
++    for _ in range(1,total_chunks+1):
+       rchunk = read_chunk_from_file(FH,blk_sz)
+       split_flag = 1
+       sck = SparseChunk()
+@@ -228,7 +228,7 @@ if __name__ == "__main__":
+           if not os.path.isfile(filepath):
+             print(filepath + ' doesn\'t exist, skip it')
+             continue
+-          if unsparse_file_list.has_key(ptn):
++          if ptn in unsparse_file_list:
+             crc = gen_crc(filepath)
+             if crc:
+               f.write(ptn + ' ' + hex(crc & (2**32-1)) + '\n')
+@@ -239,10 +239,10 @@ if __name__ == "__main__":
+               raise Exception("sparse file error!!!!!!!")
+             else:
+               fs.write(ptn + ' ' + str(parts))
+-              for i in xrange(1,parts+1):
++              for i in range(1,parts+1):
+                 fs.write(' ' + hex(crclist[i-1] & (2**32-1)))
+               fs.write('\n')
+-    except Exception, e:
++    except Exception as e:
+         os.remove(crclist)
+         os.remove(sparsecrclist)
+         raise
+diff --git a/flash_gen_md5_list.py b/flash_gen_md5_list.py
+index 0000000..0000000 100755
+--- a/flash_gen_md5_list.py
++++ b/flash_gen_md5_list.py
+@@ -1,6 +1,5 @@
+ #!/usr/bin/env python
+ import os
+-import binascii
+ import xml.etree.cElementTree as ET
+ from xml.etree import ElementTree
+ from xml.dom import minidom
