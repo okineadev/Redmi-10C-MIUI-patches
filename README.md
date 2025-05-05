@@ -105,3 +105,11 @@ rm images/userdata.raw.img
 ```
 
 Great! `images/userdata.img` is now patched
+
+## ❤️ Support
+
+If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or [buying me a coffee ☕](https://github.com/okineadev/vitepress-plugin-llms?sponsor=1)
+
+## 📜 License
+
+[MIT License](./LICENSE) © 2025-present [Yurii Bogdan](https://github.com/okineadev)
