@@ -8,7 +8,9 @@
   <!-- markdownlint-disable-next-line heading-start-left -->
   # Redmi 10C debloated MIUI \[WIP\]
 
-  > 🩹 Patch package for creating a clean MIUI by yourself
+  [![sponsor](https://img.shields.io/badge/sponsor-FF6900?logo=githubsponsors&labelColor=FAFAFA&logoColor=FF6900)](https://github.com/okineadev/vitepress-plugin-llms?sponsor=1)
+
+  > 🩹 Patches for creating a clean MIUI by yourself
 
 </div>
 <!-- markdownlint-restore -->
@@ -20,9 +22,13 @@
 
 ## 🛠️ Getting started
 
+> [!WARNING]
+> **Disclaimer**
+> These patches are under development and have not yet been sufficiently tested, all risks associated with modifying system files are your own responsibility.
+
 ### Prerequisites
 
-- **OS**: **Linux** (Recommended), **WSL** or **Windows** (Not recommended)
+- **OS**: **Linux** (or [**WSL**](https://learn.microsoft.com/windows/wsl/about)) for modifying files and applying patches, the following instructions are written only for Linux, for flashing firmware you can also use Windows
 - [git](https://git-scm.com/downloads) (Required)
 - [uv](https://github.com/astral-sh/uv#installation) to run Python (Optional)
 - 💿 `fog_global_images_V14.0.8.0.TGEMIXM_20240828.0000.00_13.0_global_356db336fa.tgz` ROM (fastboot)
