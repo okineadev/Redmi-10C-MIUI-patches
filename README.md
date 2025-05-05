@@ -98,6 +98,8 @@ Now we can apply the patches to the `images/userdata` folder:
 for patch in patches/04-userdata.img/*.patch; do git apply "$patch"; done
 ```
 
+Now we need to package the image back:
+
 ```bash
 sudo umount images/userdata
 rm images/userdata.img
