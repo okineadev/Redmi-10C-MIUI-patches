@@ -62,13 +62,46 @@
 2. Apply all basic patches:
 
    ```bash
-   for patch in patches/*.patch; do
-       git apply "$patch"
-   done
+   for patch in patches/*.patch; do git apply "$patch"; done
    ```
 
    To find out what these patches do, you can read the patch files, they describe in human language what has been changed.
 
 ### 🥼 Advanced patches
 
-Soon...
+#### **`images/userdata.img`**
+
+First, you need to unpack this file
+
+To do this, you will need to install the `simg2img` tool:
+
+```bash
+sudo apt install android-sdk-libsparse-utils -y
+```
+
+Then run the command:
+
+```bash
+simg2img images/userdata.img images/userdata.raw.img
+```
+
+Then we need to mount the `images/userdata.raw.img` file:
+
+```bash
+sudo mount -t f2fs -o loop,rw images/userdata.raw.img images/userdata
+```
+
+Now we can apply the patches to the `images/userdata` folder:
+
+```bash
+for patch in patches/04-userdata.img/*.patch; do git apply "$patch"; done
+```
+
+```bash
+sudo umount images/userdata
+rm images/userdata.img
+img2simg images/userdata.raw.img images/userdata.img
+rm images/userdata.raw.img
+```
+
+Great! `images/userdata.img` is now patched
