@@ -31,7 +31,7 @@
 
 - **OS**: **Linux** (or [**WSL**](https://learn.microsoft.com/windows/wsl/about)) for modifying files and applying patches, the following instructions are written only for Linux, for flashing firmware you can also use Windows
 - [git](https://git-scm.com/downloads) (Required)
-- [uv](https://github.com/astral-sh/uv#installation) to run Python (Optional)
+- [uv] to run Python
 - 💿 `fog_global_images_V14.0.8.0.TGEMIXM_20240828.0000.00_13.0_global_356db336fa.tgz` ROM (fastboot)
 
   You can download this firmware from here: <https://xmfirmwareupdater.com/miui/fog/stable/V14.0.8.0.TGEMIXM>
@@ -89,6 +89,7 @@ simg2img images/userdata.img images/userdata.raw.img
 Then we need to mount the `images/userdata.raw.img` file:
 
 ```bash
+mkdir images/userdata
 sudo mount -t f2fs -o loop,rw images/userdata.raw.img images/userdata
 ```
 
@@ -105,9 +106,77 @@ sudo umount images/userdata
 rm images/userdata.img
 img2simg images/userdata.raw.img images/userdata.img
 rm images/userdata.raw.img
+rm -rf images/userdata
 ```
 
 Great! `images/userdata.img` is now patched
+
+---
+
+#### **`images/super.img`**
+
+> [!WARNING]
+> This section is a WIP and is not yet complete and may change.
+
+We need to unpack all the partitions from `super.img` into the `images/super` folder, for this we need [`uv`][uv] to run the Python script `lpunpack.py` which you can grab from this repository, then run this command:
+
+```bash
+mkdir images/super
+uv run lpunpack.py images/super.img images/super
+```
+
+##### **`mi_ext_a.img`**
+
+\[WIP\]
+
+##### **`product_a.img`**
+
+In order for us to be able to unpack this file, we need to allocate a little more space in the image, the file itself is **4.5+ GB**, and we need to increase its size to **5 GB** (**Required**):
+
+```bash
+fallocate images/super/product_a.img -l 5G
+resize2fs images/super/product_a.img 5G
+```
+
+We need to disable the `shared_blocks` option, otherwise we won't be able to mount the image (see [https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images](https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images/#:~:text=It%20turned%20out%20that%20system%20imgage%20in%20Android%2010%2B%20is%20formated%20with%20EXT4_FEATURE_RO_COMPAT_SHARED_BLOCKS%2C%20found%20by%20%40topjohnwu) and <https://x.com/topjohnwu/status/1170404631865778177>)
+
+```bash
+e2fsck -E unshare_blocks images/super/product_a.img
+```
+
+Now we can mount the image:
+
+```bash
+mkdir images/super/product_a
+sudo mount -t ext4 -o loop images/super/product_a.img images/super/product_a
+```
+
+> [!IMPORTANT]
+> When editing any files, you **must** use `sudo` and it is preferable to do all operations only in the terminal, otherwise you have a chance to break the image.
+
+Next we can apply the patches, note that we use `sudo git apply` here.
+
+```bash
+for patch in patches/05-super.img/02-product_a.img/*.patch; do sudo git apply "$patch"; done
+```
+
+> [!TIP]
+> You can also edit `etc/build.prop` here 🙂
+
+After applying the patches, we need to unmount the image and shrink it to its actual size:
+
+```bash
+sudo umount images/super/product_a
+e2fsck -yf images/super/product_a.img
+resize2fs -M images/super/product_a.img
+e2fsck -yf images/super/product_a.img
+rm -rf images/super/product_a
+```
+
+## 📰 Useful articles that have made a significant contribution to this project
+
+- <https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images>
+- <https://xdaforums.com/t/editing-system-img-inside-super-img-and-flashing-our-modifications.4196625>
 
 ## ❤️ Support
 
@@ -117,4 +186,5 @@ If you like this project, consider supporting it by starring ⭐ it on GitHub, s
 
 [MIT License](./LICENSE) © 2025-present [Yurii Bogdan](https://github.com/okineadev)
 
+[uv]: https://github.com/astral-sh/uv#installation
 [sponsor_link]: https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches?sponsor=1
