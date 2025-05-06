@@ -8,7 +8,7 @@
   <!-- markdownlint-disable-next-line heading-start-left -->
   # Redmi 10C debloated MIUI \[WIP\]
 
-  [![sponsor](https://img.shields.io/badge/sponsor-FF6900?logo=githubsponsors&labelColor=FAFAFA&logoColor=FF6900)](https://github.com/okineadev/vitepress-plugin-llms?sponsor=1)
+  [![sponsor](https://img.shields.io/badge/sponsor-FF6900?logo=githubsponsors&labelColor=FAFAFA&logoColor=FF6900)][sponsor_link]
 
   > 🩹 Patches for creating a clean MIUI by yourself
 
@@ -111,8 +111,10 @@ Great! `images/userdata.img` is now patched
 
 ## ❤️ Support
 
-If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or [buying me a coffee ☕](https://github.com/okineadev/vitepress-plugin-llms?sponsor=1)
+If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or [buying me a coffee ☕][sponsor_link]
 
 ## 📜 License
 
 [MIT License](./LICENSE) © 2025-present [Yurii Bogdan](https://github.com/okineadev)
+
+[sponsor_link]: https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches?sponsor=1
