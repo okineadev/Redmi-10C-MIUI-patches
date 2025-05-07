@@ -1,0 +1,255 @@
+Author: Okinea Dev <hi@okinea.dev>
+Description: Remove bloatware APKs from the `product_a.img` file, including Google apps and other unnecessary applications.
+
+diff --git a/images/super/product_a/app/CalendarGoogle/CalendarGoogle.apk b/images/super/product_a/app/CalendarGoogle/CalendarGoogle.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/CalendarGoogle/CalendarGoogle.apk and /dev/null differ
+diff --git a/images/super/product_a/app/GameCenterGlobal/GameCenterGlobal.apk b/images/super/product_a/app/GameCenterGlobal/GameCenterGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GameCenterGlobal/GameCenterGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.odex b/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.odex and /dev/null differ
+diff --git a/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.vdex b/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GameCenterGlobal/oat/arm64/GameCenterGlobal.vdex and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleLocationHistory/GoogleLocationHistory.apk b/images/super/product_a/app/GoogleLocationHistory/GoogleLocationHistory.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleLocationHistory/GoogleLocationHistory.apk and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.odex b/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.odex and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.vdex b/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleLocationHistory/oat/arm64/GoogleLocationHistory.vdex and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleOne/GoogleOne.apk b/images/super/product_a/app/GoogleOne/GoogleOne.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleOne/GoogleOne.apk and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.odex b/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.odex and /dev/null differ
+diff --git a/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.vdex b/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/GoogleOne/oat/arm64/GoogleOne.vdex and /dev/null differ
+diff --git a/images/super/product_a/app/MIUIGuardProviderGlobal/MIUIGuardProviderGlobal.apk b/images/super/product_a/app/MIUIGuardProviderGlobal/MIUIGuardProviderGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MIUIGuardProviderGlobal/MIUIGuardProviderGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/app/MIUIMiPicks/MIUIMiPicks.apk b/images/super/product_a/app/MIUIMiPicks/MIUIMiPicks.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MIUIMiPicks/MIUIMiPicks.apk and /dev/null differ
+diff --git a/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.odex b/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.odex and /dev/null differ
+diff --git a/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.vdex b/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MIUIMiPicks/oat/arm64/MIUIMiPicks.vdex and /dev/null differ
+diff --git a/images/super/product_a/app/MIUISecurityAddGlobal/MIUISecurityAddGlobal.apk b/images/super/product_a/app/MIUISecurityAddGlobal/MIUISecurityAddGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MIUISecurityAddGlobal/MIUISecurityAddGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/app/MiLinkGlobal/MiLinkGlobal.apk b/images/super/product_a/app/MiLinkGlobal/MiLinkGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MiLinkGlobal/MiLinkGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.odex b/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.odex and /dev/null differ
+diff --git a/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.vdex b/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/MiLinkGlobal/oat/arm64/MiLinkGlobal.vdex and /dev/null differ
+diff --git a/images/super/product_a/app/YouTube/YouTube.apk b/images/super/product_a/app/YouTube/YouTube.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/YouTube/YouTube.apk and /dev/null differ
+diff --git a/images/super/product_a/app/com.google.mainline.telemetry/com.google.mainline.telemetry.apk b/images/super/product_a/app/com.google.mainline.telemetry/com.google.mainline.telemetry.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/app/com.google.mainline.telemetry/com.google.mainline.telemetry.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Drive/Drive.apk b/images/super/product_a/data-app/Drive/Drive.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Drive/Drive.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/GlobalWPSLITE/GlobalWPSLITE.apk b/images/super/product_a/data-app/GlobalWPSLITE/GlobalWPSLITE.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/GlobalWPSLITE/GlobalWPSLITE.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/GoogleNews/GoogleNews.apk b/images/super/product_a/data-app/GoogleNews/GoogleNews.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/GoogleNews/GoogleNews.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.odex b/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.odex and /dev/null differ
+diff --git a/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.vdex b/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/GoogleNews/oat/arm64/GoogleNews.vdex and /dev/null differ
+diff --git a/images/super/product_a/data-app/MIBrowserGlobal_removable/MIBrowserGlobal_removable.apk b/images/super/product_a/data-app/MIBrowserGlobal_removable/MIBrowserGlobal_removable.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/MIBrowserGlobal_removable/MIBrowserGlobal_removable.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/MICOMMUNITY_OVERSEA/MICOMMUNITY_OVERSEA.apk b/images/super/product_a/data-app/MICOMMUNITY_OVERSEA/MICOMMUNITY_OVERSEA.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/MICOMMUNITY_OVERSEA/MICOMMUNITY_OVERSEA.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/MIDrop/MIDrop.apk b/images/super/product_a/data-app/MIDrop/MIDrop.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/MIDrop/MIDrop.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/MISTORE_OVERSEA/MISTORE_OVERSEA.apk b/images/super/product_a/data-app/MISTORE_OVERSEA/MISTORE_OVERSEA.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/MISTORE_OVERSEA/MISTORE_OVERSEA.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Meet/Meet.apk b/images/super/product_a/data-app/Meet/Meet.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Meet/Meet.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/MicrosoftOneDrive/MicrosoftOneDrive.apk b/images/super/product_a/data-app/MicrosoftOneDrive/MicrosoftOneDrive.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/MicrosoftOneDrive/MicrosoftOneDrive.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Opera/Opera.apk b/images/super/product_a/data-app/Opera/Opera.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Opera/Opera.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Podcasts/Podcasts.apk b/images/super/product_a/data-app/Podcasts/Podcasts.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Podcasts/Podcasts.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.odex b/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.odex and /dev/null differ
+diff --git a/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.vdex b/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Podcasts/oat/arm64/Podcasts.vdex and /dev/null differ
+diff --git a/images/super/product_a/data-app/SmartHome/SmartHome.apk b/images/super/product_a/data-app/SmartHome/SmartHome.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/SmartHome/SmartHome.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/Videos/Videos.apk b/images/super/product_a/data-app/Videos/Videos.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/Videos/Videos.apk and /dev/null differ
+diff --git a/images/super/product_a/data-app/YTMusic/YTMusic.apk b/images/super/product_a/data-app/YTMusic/YTMusic.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/data-app/YTMusic/YTMusic.apk and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/app/facebook-appmanager/facebook-appmanager.apk b/images/super/product_a/pangu/system/app/facebook-appmanager/facebook-appmanager.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/app/facebook-appmanager/facebook-appmanager.apk and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.odex b/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.odex and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.vdex b/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/app/facebook-appmanager/oat/arm64/facebook-appmanager.vdex and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/dtag-appenabler/dtag-appenabler.apk b/images/super/product_a/pangu/system/priv-app/dtag-appenabler/dtag-appenabler.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/dtag-appenabler/dtag-appenabler.apk and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-installer/facebook-installer.apk b/images/super/product_a/pangu/system/priv-app/facebook-installer/facebook-installer.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-installer/facebook-installer.apk and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.odex b/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.odex and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.vdex b/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-installer/oat/arm64/facebook-installer.vdex and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-services/facebook-services.apk b/images/super/product_a/pangu/system/priv-app/facebook-services/facebook-services.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-services/facebook-services.apk and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.odex b/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.odex and /dev/null differ
+diff --git a/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.vdex b/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/pangu/system/priv-app/facebook-services/oat/arm64/facebook-services.vdex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/FamilyLinkParentalControls/FamilyLinkParentalControls.apk b/images/super/product_a/priv-app/FamilyLinkParentalControls/FamilyLinkParentalControls.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/FamilyLinkParentalControls/FamilyLinkParentalControls.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.odex b/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.odex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.vdex b/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/FamilyLinkParentalControls/oat/arm64/FamilyLinkParentalControls.vdex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/Gallery_T_Global/Gallery_T_Global.apk b/images/super/product_a/priv-app/Gallery_T_Global/Gallery_T_Global.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/Gallery_T_Global/Gallery_T_Global.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/GoogleAssistant/GoogleAssistant.apk b/images/super/product_a/priv-app/GoogleAssistant/GoogleAssistant.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/GoogleAssistant/GoogleAssistant.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.odex b/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.odex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.vdex b/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/GoogleAssistant/oat/arm64/GoogleAssistant.vdex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/MIUICleanMasterGlobal-cleaner.apk b/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/MIUICleanMasterGlobal-cleaner.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/MIUICleanMasterGlobal-cleaner.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.odex b/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.odex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.vdex b/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUICleanMasterGlobal-cleaner/oat/arm64/MIUICleanMasterGlobal-cleaner.vdex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUIMusicGlobal/MIUIMusicGlobal.apk b/images/super/product_a/priv-app/MIUIMusicGlobal/MIUIMusicGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUIMusicGlobal/MIUIMusicGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUISecurityCenterGlobal/MIUISecurityCenterGlobal.apk b/images/super/product_a/priv-app/MIUISecurityCenterGlobal/MIUISecurityCenterGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUISecurityCenterGlobal/MIUISecurityCenterGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUIYellowPageGlobal/MIUIYellowPageGlobal.apk b/images/super/product_a/priv-app/MIUIYellowPageGlobal/MIUIYellowPageGlobal.apk
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUIYellowPageGlobal/MIUIYellowPageGlobal.apk and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.odex b/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.odex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.odex and /dev/null differ
+diff --git a/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.vdex b/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.vdex
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/priv-app/MIUIYellowPageGlobal/oat/arm64/MIUIYellowPageGlobal.vdex and /dev/null differ

@@ -43,3 +43,52 @@ index 0000000..0000000 100644
    <exception
      package="com.google.android.marvin.talkback"
      sha256-cert-digest="7B:5A:D5:51:80:A4:8A:1F:30:F3:53:77:C0:F9:E5:F9:11:BF:94:2F:B4:CF:83:EB:A2:55:A0:EB:F5:80:BE:EF">
+diff --git a/images/super/product_a/pangu/system/etc/permissions/facebook-hiddenapi-package-whitelist.xml b/images/super/product_a/pangu/system/etc/permissions/facebook-hiddenapi-package-whitelist.xml
+deleted file mode 100644
+index 0000000..0000000
+--- a/images/super/product_a/pangu/system/etc/permissions/facebook-hiddenapi-package-whitelist.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<config>
+-        <hidden-api-whitelisted-app package="com.facebook.appmanager" />
+-        <hidden-api-whitelisted-app package="com.facebook.system" />
+-        <hidden-api-whitelisted-app package="com.facebook.services" />
+-</config>
+\ No newline at end of file
+diff --git a/images/super/product_a/pangu/system/etc/permissions/facebook-miui.xml b/images/super/product_a/pangu/system/etc/permissions/facebook-miui.xml
+deleted file mode 100644
+index 0000000..0000000
+--- a/images/super/product_a/pangu/system/etc/permissions/facebook-miui.xml
++++ /dev/null
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<permissions>
+-    <allow-in-power-save-except-idle package="com.facebook.appmanager" />
+-</permissions>
+diff --git a/images/super/product_a/pangu/system/etc/permissions/privapp-permissions-dtag.xml b/images/super/product_a/pangu/system/etc/permissions/privapp-permissions-dtag.xml
+deleted file mode 100644
+index 0000000..0000000
+--- a/images/super/product_a/pangu/system/etc/permissions/privapp-permissions-dtag.xml
++++ /dev/null
+@@ -1,19 +0,0 @@
+-<permissions>
+-
+-    <privapp-permissions package="de.telekom.tsc">
+-        <permission name="android.permission.INSTALL_PACKAGES" />
+-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+-        <permission name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+-        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+-    </privapp-permissions>
+-
+-    <privapp-permissions package="com.aura.oobe.deutsche">
+-        <permission name="android.permission.INSTALL_PACKAGES"/>
+-    </privapp-permissions>
+-
+-    <allow-in-power-save package="de.telekom.tsc"/>
+-
+-    <allow-in-power-save-except-idle package="de.telekom.tsc"/>
+-
+-    <allow-in-power-save package="com.aura.oobe.deutsche"/>
+-</permissions>
+\ No newline at end of file
