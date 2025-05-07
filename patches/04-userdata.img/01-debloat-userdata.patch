@@ -33,36 +33,3 @@ diff --git a/images/userdata/miui/app/recommended/3rd-video.like_111.apk b/image
 deleted file mode 100644
 index 0000000..0000000
 Binary files a/images/userdata/miui/app/recommended/3rd-video.like_111.apk and /dev/null differ
-diff --git a/images/sparsecrclist.txt b/images/sparsecrclist.txt
-index 0000000..0000000 100644
---- a/images/sparsecrclist.txt
-+++ b/images/sparsecrclist.txt
-@@ -1,5 +1,5 @@
- SPARSECRC-LIST
- super 11 0xa73aef46 0x59915cc7 0xb9a6c4a6 0xcc192319 0xc5a1543 0x6fa9e 0xfbc694e 0x4403e2b 0x1e6c250a 0xae1b90cc 0x6fc37abb
--userdata 1 0xa3e28841
-+userdata 1 0xaf315c9
- metadata 1 0x105528d5
- rescue 1 0x5c4e9d6
-diff --git a/md5sum.xml b/md5sum.xml
-index 0000000..0000000 100644
---- a/md5sum.xml
-+++ b/md5sum.xml
-@@ -33,7 +33,7 @@
-     <digest name="patch2.xml" hash="md5">81036277fd056a16c0e418a756a5a835</digest>
-     <digest name="multi_image.mbn" hash="md5">2be518fe3af47a7043e7dd220896ec8b</digest>
-     <digest name="featenabler.mbn" hash="md5">442b8cec0d13dce090a9f04e4fdf55ee</digest>
--    <digest name="userdata.img" hash="md5">5c41aca8b38ed590017b9662603cfdb4</digest>
-+    <digest name="userdata.img" hash="md5">3f22c6a9c294375ad90b8591fc07aee2</digest>
-     <digest name="xbl_config.elf" hash="md5">5f7f8624fba0849572b51763d9fc949c</digest>
-     <digest name="patch4.xml" hash="md5">25ed9c610e4e04e3916ec284badc97b8</digest>
-     <digest name="devcfg.mbn" hash="md5">47f3937e4daf5b1520fd698c49abad98</digest>
-@@ -63,7 +63,7 @@
-     <digest name="boot.img" hash="md5">5980595addd24fe16c743ffde172dd1e</digest>
-     <digest name="gpt_both2.bin" hash="md5">48cf15be457cd3c049a9d034f08586de</digest>
-     <digest name="prog_firehose_ddr.elf" hash="md5">8fc57ceb9d55da6ecc2a43144f4b8116</digest>
--    <digest name="sparsecrclist.txt" hash="md5">1ac4ad92812250559b05cbc3d7692e20</digest>
-+    <digest name="sparsecrclist.txt" hash="md5">03a6b330180ed8a8e01fea19fe962794</digest>
-     <digest name="imagefv.elf" hash="md5">c024460078b9eed4a46ab175dc385d10</digest>
-     <digest name="gpt_both1.bin" hash="md5">f816a310a8928ee8c8d88924fd60a924</digest>
-     <digest name="about.html" hash="md5">820d4656ae1d6f7a2f368bfe2975c6b8</digest>
