@@ -214,8 +214,8 @@ rm -rf images/super/product_a
 
 3. USB cable (preferable the factory cable) which can transmit data (sometimes there are cables that only transmit power without data)
 
-   > [!CAUTION]
-   > If the cable is broken, or has any problems with data transfer or power - stop immediately and find another working cable, otherwise you will have a chance to brick your phone.
+> [!CAUTION]
+> If the cable is broken, or has any problems with data transfer or power - stop immediately and find another working cable, otherwise you will have a chance to brick your phone.
 
 ### Preparation
 
