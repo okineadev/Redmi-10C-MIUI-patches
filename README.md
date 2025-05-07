@@ -24,9 +24,7 @@
 ## 🛠️ Getting started
 
 > [!WARNING]
-> **Disclaimer**
->
-> These patches are under development and have not yet been sufficiently tested, all risks associated with modifying system files are your own responsibility.
+> **Disclaimer**: These patches are under development and have not yet been sufficiently tested, all risks associated with modifying system files are your own responsibility.
 
 ### Prerequisites
 
@@ -200,6 +198,55 @@ resize2fs -M images/super/product_a.img
 e2fsck -yf images/super/product_a.img
 rm -rf images/super/product_a
 ```
+
+## ⚡ Flashing the firmware
+
+### Requirements
+
+1. Unlocked bootloader
+2. `fastboot` installed
+
+   If not installed, you can install it using the following command:
+
+   ```bash
+   sudo apt install android-tools-fastboot -y
+   ```
+
+3. USB cable (preferable the factory cable) which can transmit data (sometimes there are cables that only transmit power without data)
+
+   > [!CAUTION]
+   > If the cable is broken, or has any problems with data transfer or power - stop immediately and find another working cable, otherwise you will have a chance to brick your phone.
+
+### Preparation
+
+Before flashing, you need to update the file checksums:
+
+```bash
+uv run flash_gen_crc_list.py
+```
+
+It will update the files `images/crclist.txt` and `images/sparsecrclist.txt`
+
+### Flashing
+
+Make sure you haven't missed anything.
+
+> [!IMPORTANT]
+> Back up all your data and photos from your phone, as you will have to completely erase the data from your phone.
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+1. Boot into fastboot mode by holding the <kbd>Power</kbd> + <kbd>Volume Down</kbd> buttons until the phone vibrates and the fastboot screen appears.
+2. Connect the phone to your computer using a USB cable.
+3. Open a terminal and navigate to the folder with the firmware.
+4. Run the following command to flash the firmware:
+
+   ```bash
+   ./flash_all.sh
+   ```
+
+   Meanwhile, you can have tea while it flashes the firmware 🍵😌
+
+---
 
 ## 📰 Useful articles that have made a significant contribution to this project
 
