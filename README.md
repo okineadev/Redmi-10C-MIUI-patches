@@ -127,7 +127,31 @@ uv run lpunpack.py images/super.img images/super
 
 ##### **`mi_ext_a.img`**
 
-\[WIP\]
+We need to disable the `shared_blocks` option, otherwise we won't be able to mount the image (see [https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images](https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images/#:~:text=It%20turned%20out%20that%20system%20imgage%20in%20Android%2010%2B%20is%20formated%20with%20EXT4_FEATURE_RO_COMPAT_SHARED_BLOCKS%2C%20found%20by%20%40topjohnwu) and <https://x.com/topjohnwu/status/1170404631865778177>)
+
+```bash
+e2fsck -E unshare_blocks images/super/mi_ext_a.img
+```
+
+Now we can mount the image:
+
+```bash
+mkdir images/super/mi_ext_a
+sudo mount -t ext4 -o loop images/super/mi_ext_a.img images/super/mi_ext_a
+```
+
+Apply patches:
+
+```bash
+for patch in patches/05-super.img/01-mi_ext_a.img/*.patch; do git apply "$patch"; done
+```
+
+Unmount the image:
+
+```bash
+sudo umount images/super/mi_ext_a
+rm -rf images/super/mi_ext_a
+```
 
 ##### **`product_a.img`**
 
@@ -138,7 +162,7 @@ fallocate images/super/product_a.img -l 5G
 resize2fs images/super/product_a.img 5G
 ```
 
-We need to disable the `shared_blocks` option, otherwise we won't be able to mount the image (see [https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images](https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images/#:~:text=It%20turned%20out%20that%20system%20imgage%20in%20Android%2010%2B%20is%20formated%20with%20EXT4_FEATURE_RO_COMPAT_SHARED_BLOCKS%2C%20found%20by%20%40topjohnwu) and <https://x.com/topjohnwu/status/1170404631865778177>)
+As in the previous section, disable the `shared_blocks` option:
 
 ```bash
 e2fsck -E unshare_blocks images/super/product_a.img
