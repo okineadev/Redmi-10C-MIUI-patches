@@ -18,7 +18,8 @@
 ## ✨ Features
 
 - Removed `cust.img` which reduces firmware size by 1.2+ GB and speeds up installation speed by a couple of minutes
-- Clean factory firmware that only you can edit and control
+- Removed unnecessary preinstalled APKs and removed default audio recording permissions for some apps
+- Clean factory firmware that you can edit and control
 
 ## 🛠️ Getting started
 
@@ -155,6 +156,9 @@ rm -rf images/super/mi_ext_a
 
 ##### **`product_a.img`**
 
+<!-- markdownlint-disable-next-line no-inline-html -->
+<img src="assets/image.png" width="300" alt="🥷">
+
 In order for us to be able to unpack this file, we need to allocate a little more space in the image, the file itself is **4.5+ GB**, and we need to increase its size to **5 GB** (**Required**):
 
 ```bash
@@ -184,8 +188,8 @@ Next we can apply the patches, note that we use `sudo git apply` here.
 for patch in patches/05-super.img/02-product_a.img/*.patch; do sudo git apply "$patch"; done
 ```
 
-> [!TIP]
-> You can also edit `etc/build.prop` here 🙂
+<!-- > [!TIP]
+> You can also edit `etc/build.prop` here 🙂 -->
 
 After applying the patches, we need to unmount the image and shrink it to its actual size:
 
