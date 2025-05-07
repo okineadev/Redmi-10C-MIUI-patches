@@ -1,0 +1,1811 @@
+Author: Okinea Dev <hi@okinea.dev>
+Description: Remove dynamic icons
+
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/air.tv.douyu.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/app.buzz.share/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/cn.kuwo.player/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.MobileTicket/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.Qunar/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile.intl/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.UCMobile/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.airbnb.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.aliexpresshd/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.alibaba.android.rimet/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.calendar/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.chrome/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.contacts/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.contacts/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads.ui/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.providers.downloads/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.soundrecorder/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.updater/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.android.vending/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.anjuke.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.application.zomato/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.autonavi.minimap/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.BaiduMap/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.homework/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.input/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.netdisk/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.searchbox/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.tieba/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.baidu.video/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.campmobile.snowcamera/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.changba/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.bocmbci/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.chinamworld.main/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.mguard_cn/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.cleanmaster.security_cn/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.contextlogic.wish/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dd.doordash/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.dianping.v1/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.discord/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duokan.phone.remotecontroller/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.kiwi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.duowan.mobile/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ebay.mobile/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eg.android.AlipayGphone/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.eterno/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.katana/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.lite/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.mlite/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.facebook.orca/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.fenbi.android.solar/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.flipkart.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gojek.app/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.books/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.docs/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.sheets/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs.editors.slides/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.docs/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.fitness/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.googleassistant/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.inputmethod.hindi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.magazines/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.maps/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.nbu./1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.photos/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.subscriptions.red/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.tachyon/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.translate/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.walletnfcrel/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.apps.youtube.music/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.calendar/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.contacts/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.gm/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.googlequicksearchbox/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.ims/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.latin/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.inputmethod.pinyin/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.keep/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.music/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.play.games/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.videos/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.android.youtube/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.google.earth/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.gotokeep.keep/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.grabtaxi.passenger/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.graymatrix.did/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.greenpoint.android.mc10086.activity/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.handsgo.jiakao.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hexin.plat.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hulu.plus/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.hunantv.imgo.activity/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc.im/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.icbc/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ifext.news/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.iflytek.inputmethod/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.immomo.momo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.imo.android.imoim/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.instagram.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.intsig.camscanner/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jifen.qukan/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jingdong.app.mall/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.jioplay.tv/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.jio.myjio/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kingsoft/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kuaikan.comic/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.kugou.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lemon.faceu/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.lenovo.anyshare.gps/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.letv.android.client/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.linkedin.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meipaimv/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.meitu.meiyancamera/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.android.globallauncher/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.bbs/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mi.global.shop/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.micredit.in/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.emmx/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.excel/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.powerpoint/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.microsoft.office.word/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mipay.wallet.in/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.calculator/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.huanji/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.screenrecorder/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.videoplaye/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.miui.virtualsim/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.moji.mjweather/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mt.mtxx.mtxx/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.mxtech.videoplayer.ad/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myairtelapp/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.myntra.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netease.newsreader.activity/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.netflix.mediaclient/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nike.omega/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.nuomi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.olacabs.customer/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.app.news/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.browser/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.opera.mini.native/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.paypal.android.p2pmobile/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.phonepe.app/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pingan.lifeinsurance/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pinterest/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.pplive.androidphone/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qihoo360.mobilesafe/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qiyi.video/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.qzone/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan.takeoutnew/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sankuai.meituan/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sdu.didi.psnger/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shazam.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shopee.id/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shoujiduoduo.ringtone/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.shuqi.controller/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.news/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sina.weibo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.smile.gifmaker/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snapchat.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.snda.wifilocating/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.sohu.sohuvideo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.soundcloud.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.spotify.music/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.news/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.article.video/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.aweme/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boom/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.boomlite/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ss.android.ugc.live/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.suning.mobile.ebuy/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.idlefish/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.taobao/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.taobao.trip/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.androidqqmail/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mm/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mobileqq/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.mtt/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.news/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqlive/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqmusic/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.qqpim/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tencent.wifimanager/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tinder/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmall.wireless/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tmri.app.main/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.truecaller/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tuan800.tao800/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.tudou.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.twitter.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ubercab/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.uc.vmate/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ushaqi.zhuishushenqi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.venmo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp.w4b/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.whatsapp/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.wuba/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiachufang/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.hm.health/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.midrop/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.mipicks/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xiaomi.youpin/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.ximalaya.ting.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xingin.xhs/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunlei.downloadprovider/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.xunmeng.pinduoduo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yidian.xiaomi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yixia.videoeditor/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youdao.dict/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.youku.phone/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.yunxi.flashlight/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhihu.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically.go/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zhiliaoapp.musically/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/com.zing.zalo/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ctrip.android.view/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/fm.qingting.qtradio/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.amazon.mShop.android.shopping/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/in.mohalla.sharechat/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/me.ele/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/net.one97.paytm/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.mozilla.firefox/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/org.telegram.messenger/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.ok.android/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.sberbankmobile/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.searchplugin/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/ru.yandex.yandexnavi/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/tv.danmaku.bili/1.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/0.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/0.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/0.png and /dev/null differ
+diff --git a/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/1.png b/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/1.png
+deleted file mode 100644
+index 0000000..0000000
+Binary files a/images/super/product_a/media/theme/miui_mod_icons/dynamic/video.like/1.png and /dev/null differ
