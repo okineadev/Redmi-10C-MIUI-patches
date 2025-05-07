@@ -126,6 +126,9 @@ uv run lpunpack.py images/super.img images/super
 
 ##### **`mi_ext_a.img`**
 
+<!-- markdownlint-disable-next-line no-inline-html -->
+<img src="assets/stickers/magic.gif" width="180" alt="📱✨🐰" align="right">
+
 We need to disable the `shared_blocks` option, otherwise we won't be able to mount the image (see [https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images](https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images/#:~:text=It%20turned%20out%20that%20system%20imgage%20in%20Android%2010%2B%20is%20formated%20with%20EXT4_FEATURE_RO_COMPAT_SHARED_BLOCKS%2C%20found%20by%20%40topjohnwu) and <https://x.com/topjohnwu/status/1170404631865778177>)
 
 ```bash
@@ -214,7 +217,8 @@ rm -rf images/super/product_a
 
 3. USB cable (preferable the factory cable) which can transmit data (sometimes there are cables that only transmit power without data)
 
-> [!CAUTION]
+> [!CAUTION] <!-- markdownlint-disable-next-line no-inline-html -->
+> <img src="assets/stickers/this-is-fine.gif" width="180" alt="🐰🔥" align="right"> **Warning**: Make sure the cable is working and can transmit data, otherwise you may brick your phone.
 > If the cable is broken, or has any problems with data transfer or power - stop immediately and find another working cable, otherwise you will have a chance to brick your phone.
 
 ### Preparation
@@ -245,6 +249,9 @@ Make sure you haven't missed anything.
    ```
 
    Meanwhile, you can have tea while it flashes the firmware 🍵😌
+
+   <!-- markdownlint-disable-next-line no-inline-html -->
+   <img src="assets/stickers/happy.gif" width="180" alt="📱✨🐰">
 
 ---
 
