@@ -129,11 +129,20 @@ chmod +x ./{lpunpack,lpmake}
 Then we need to unpack all the partitions from `super.img` into the `images/super` folder:
 
 ```bash
+simg2img images/super.img images/super.unsparse.img
 mkdir images/super
-./lpunpack images/super.img images/super
+./lpunpack images/super.unsparse.img images/super
 ```
 
 ##### **`mi_ext_a.img`**
+
+Allocate a free space for changes:
+
+```bash
+fallocate images/super/mi_ext_a.img -l 50M
+e2fsck -yf images/super/mi_ext_a.img
+resize2fs images/super/mi_ext_a.img 50M
+```
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <img src="assets/stickers/magic.gif" width="180" alt="📱✨🐰" align="right">
