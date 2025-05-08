@@ -3,7 +3,7 @@ Description: This patch removes the `cust.img` file and all references to it fro
 
 diff --git a/images/cust.img b/images/cust.img
 deleted file mode 100644
-index 0000000..0000000
+index 5fe9a66d6adb20dc33d18125b4a1eb7e9c1a1657..0000000000000000000000000000000000000000
 Binary files a/images/cust.img and /dev/null differ
 
 diff --git a/flash_all.bat b/flash_all.bat

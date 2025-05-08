@@ -29,31 +29,33 @@
 ### Prerequisites
 
 - **OS**: **Linux** (or [**WSL**](https://learn.microsoft.com/windows/wsl/about)) for modifying files and applying patches, the following instructions are written only for Linux, for flashing firmware you can also use Windows
-- [git](https://git-scm.com/downloads) (Required)
+- [git](https://git-scm.com/downloads)
 - [uv] to run Python
-- 💿 `fog_global_images_V14.0.8.0.TGEMIXM_20240828.0000.00_13.0_global_356db336fa.tgz` ROM (fastboot)
+- 💿 Redmi 10C ROM (fastboot), I recommend using the **European** version of MIUI - <https://xmfirmwareupdater.com/miui/fog/stable/V14.0.10.0.TGEEUXM>
 
-  You can download this firmware from here: <https://xmfirmwareupdater.com/miui/fog/stable/V14.0.8.0.TGEMIXM>
+  These instructions use the `fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz` image, you can use a different image, but then the patches may not apply
 
 ## 📦 Unpacking the Archive
 
 1. Copy the ROM archive to a convenient directory.
-2. Verify the MD5 checksum:
+2. Verify the archive checksum to verify its integrity:
 
    ```bash
-   md5sum fog_global_images_V14.0.8.0.TGEMIXM_20240828.0000.00_13.0_global_356db336fa.tgz
+   md5sum fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz
    ```
 
-   Make sure the result matches this checksum:
+   The result should match this checksum:
 
    ```plaintext
-   356db336fa0bb08255f74afd21254302
+   f07e576e5745f36310a2463038662b59
    ```
+
+   If you use a different image, the checksum must match the one listed on the website from which you downloaded it.
 
 3. Extract the archive:
 
    ```bash
-   tar -xf fog_global_images_V14.0.8.0.TGEMIXM_20240828.0000.00_13.0_global_356db336fa.tgz
+   tar -xf fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz
    ```
 
 ## 🩹 Applying the Patches
@@ -117,11 +119,18 @@ Great! `images/userdata.img` is now patched
 > [!WARNING]
 > This section is a WIP and is not yet complete and may change.
 
-We need to unpack all the partitions from `super.img` into the `images/super` folder, for this we need [`uv`][uv] to run the Python script `lpunpack.py` which you can grab from this repository, then run this command:
+To work on this partition we need to download `lpunpack` to unpack `super.img` and `lpmake` to pack it:
+
+```bash
+wget https://raw.githubusercontent.com/Exynos-nibba/lpunpack-lpmake-mirror/d0f9da322b764871e54072d1b3e9d67c09cd715c/binary/{lpunpack,lpmake}
+chmod +x ./{lpunpack,lpmake}
+```
+
+Then we need to unpack all the partitions from `super.img` into the `images/super` folder:
 
 ```bash
 mkdir images/super
-uv run lpunpack.py images/super.img images/super
+./lpunpack images/super.img images/super
 ```
 
 ##### **`mi_ext_a.img`**
@@ -132,7 +141,7 @@ uv run lpunpack.py images/super.img images/super
 We need to disable the `shared_blocks` option, otherwise we won't be able to mount the image (see [https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images](https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images/#:~:text=It%20turned%20out%20that%20system%20imgage%20in%20Android%2010%2B%20is%20formated%20with%20EXT4_FEATURE_RO_COMPAT_SHARED_BLOCKS%2C%20found%20by%20%40topjohnwu) and <https://x.com/topjohnwu/status/1170404631865778177>)
 
 ```bash
-e2fsck -E unshare_blocks images/super/mi_ext_a.img
+e2fsck -yE unshare_blocks images/super/mi_ext_a.img
 ```
 
 Now we can mount the image:
@@ -142,10 +151,16 @@ mkdir images/super/mi_ext_a
 sudo mount -t ext4 -o loop images/super/mi_ext_a.img images/super/mi_ext_a
 ```
 
+> [!IMPORTANT]
+> When editing any files, you **must** use `sudo` and it is preferable to do all operations only in the terminal, otherwise you have a chance to break the image.
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+> <sub>If you know a more adequate mounting option with the ability to edit files without `sudo`, [please create an issue](https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches/issues/new) or PR here with updated instructions.</sub>
+
 Apply patches:
 
 ```bash
-for patch in patches/05-super.img/01-mi_ext_a.img/*.patch; do git apply "$patch"; done
+for patch in patches/05-super.img/01-mi_ext_a.img/*.patch; do sudo git apply "$patch"; done
 ```
 
 Unmount the image:
@@ -164,13 +179,17 @@ In order for us to be able to unpack this file, we need to allocate a little mor
 
 ```bash
 fallocate images/super/product_a.img -l 5G
+e2fsck -yf images/super/product_a.img
 resize2fs images/super/product_a.img 5G
 ```
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+> <sub>If you know a more adequate mounting option without the need to increase the image size, dance with a tambourine and `e2fsck`, then please [create an issue](https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches/issues/new) or PR here with updated instructions</sub>
 
 As in the previous section, disable the `shared_blocks` option:
 
 ```bash
-e2fsck -E unshare_blocks images/super/product_a.img
+e2fsck -yE unshare_blocks images/super/product_a.img
 ```
 
 Now we can mount the image:
@@ -180,10 +199,7 @@ mkdir images/super/product_a
 sudo mount -t ext4 -o loop images/super/product_a.img images/super/product_a
 ```
 
-> [!IMPORTANT]
-> When editing any files, you **must** use `sudo` and it is preferable to do all operations only in the terminal, otherwise you have a chance to break the image.
-
-Next we can apply the patches, note that we use `sudo git apply` here.
+Next we can apply the patches, note that we also use `sudo git apply` here.
 
 ```bash
 for patch in patches/05-super.img/02-product_a.img/*.patch; do sudo git apply "$patch"; done
@@ -212,7 +228,7 @@ rm -rf images/super/product_a
    If not installed, you can install it using the following command:
 
    ```bash
-   sudo apt install android-tools-fastboot -y
+   sudo apt install android-sdk-platform-tools -y
    ```
 
 3. USB cable (preferable the factory cable) which can transmit data (sometimes there are cables that only transmit power without data)

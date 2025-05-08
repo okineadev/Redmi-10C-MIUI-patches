@@ -1,35 +1,23 @@
 Author: Okinea Dev <hi@okinea.dev>
 Description: Removed bloated `.apk` files from `userdata.img`
 
-diff --git a/images/userdata/miui/app/recommended/3rd-com.alibaba.aliexpresshd_54.apk b/images/userdata/miui/app/recommended/3rd-com.alibaba.aliexpresshd_54.apk
-deleted file mode 100644
-index 0000000..0000000
-Binary files a/images/userdata/miui/app/recommended/3rd-com.alibaba.aliexpresshd_54.apk and /dev/null differ
-diff --git a/images/userdata/miui/app/recommended/3rd-com.crazy.juicer.xm_69.apk b/images/userdata/miui/app/recommended/3rd-com.crazy.juicer.xm_69.apk
-deleted file mode 100644
-index 0000000..0000000
-Binary files a/images/userdata/miui/app/recommended/3rd-com.crazy.juicer.xm_69.apk and /dev/null differ
 diff --git a/images/userdata/miui/app/recommended/3rd-com.jewelsblast.ivygames.Adventure.free_143.apk b/images/userdata/miui/app/recommended/3rd-com.jewelsblast.ivygames.Adventure.free_143.apk
 deleted file mode 100644
-index 0000000..0000000
+index ebcd98a7af634cc72b88d394bbe21ac1ae54d192..0000000000000000000000000000000000000000
 Binary files a/images/userdata/miui/app/recommended/3rd-com.jewelsblast.ivygames.Adventure.free_143.apk and /dev/null differ
 diff --git a/images/userdata/miui/app/recommended/3rd-com.logame.eliminateintruder3d_55.apk b/images/userdata/miui/app/recommended/3rd-com.logame.eliminateintruder3d_55.apk
 deleted file mode 100644
-index 0000000..0000000
+index abd2be95e9d40f58351342453d7bae0721b7a44b..0000000000000000000000000000000000000000
 Binary files a/images/userdata/miui/app/recommended/3rd-com.logame.eliminateintruder3d_55.apk and /dev/null differ
 diff --git a/images/userdata/miui/app/recommended/3rd-com.mintgames.triplecrush.tile.fun_102.apk b/images/userdata/miui/app/recommended/3rd-com.mintgames.triplecrush.tile.fun_102.apk
 deleted file mode 100644
-index 0000000..0000000
+index 939c7055e4640e73517389de078dccc56980bba4..0000000000000000000000000000000000000000
 Binary files a/images/userdata/miui/app/recommended/3rd-com.mintgames.triplecrush.tile.fun_102.apk and /dev/null differ
 diff --git a/images/userdata/miui/app/recommended/3rd-com.nf.snake_237.apk b/images/userdata/miui/app/recommended/3rd-com.nf.snake_237.apk
 deleted file mode 100644
-index 0000000..0000000
+index 94731f36ce572c8375545e644ca3662d68331383..0000000000000000000000000000000000000000
 Binary files a/images/userdata/miui/app/recommended/3rd-com.nf.snake_237.apk and /dev/null differ
 diff --git a/images/userdata/miui/app/recommended/3rd-com.sukhavati.gotoplaying.bubble.BubbleShooter.mint_79.apk b/images/userdata/miui/app/recommended/3rd-com.sukhavati.gotoplaying.bubble.BubbleShooter.mint_79.apk
 deleted file mode 100644
-index 0000000..0000000
+index e877d05841612a6226ca2db3220ceb052a633c8f..0000000000000000000000000000000000000000
 Binary files a/images/userdata/miui/app/recommended/3rd-com.sukhavati.gotoplaying.bubble.BubbleShooter.mint_79.apk and /dev/null differ
-diff --git a/images/userdata/miui/app/recommended/3rd-video.like_111.apk b/images/userdata/miui/app/recommended/3rd-video.like_111.apk
-deleted file mode 100644
-index 0000000..0000000
-Binary files a/images/userdata/miui/app/recommended/3rd-video.like_111.apk and /dev/null differ
