@@ -155,7 +155,7 @@ sudo mount -t ext4 -o loop images/super/mi_ext_a.img images/super/mi_ext_a
 > When editing any files, you **must** use `sudo` and it is preferable to do all operations only in the terminal, otherwise you have a chance to break the image.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
-> <sup>If you know a more adequate mounting option with the ability to edit files without `sudo`, [please create an issue](https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches/issues/new) or PR here with updated instructions.</sup>
+> <sup>If you know a more adequate mounting option with the ability to edit files without `sudo`, [please create an issue](https://github.com/okineadev/Redmi-10C-MIUI-patches/issues/new) or PR here with updated instructions.</sup>
 
 Apply patches:
 
@@ -184,7 +184,7 @@ resize2fs images/super/product_a.img 5G
 ```
 
 <!-- markdownlint-disable-next-line no-inline-html -->
-> <sup>If you know a more adequate mounting option without the need to increase the image size, dance with a tambourine and `e2fsck`, then please [create an issue](https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches/issues/new) or PR here with updated instructions</sup>
+> <sup>If you know a more adequate mounting option without the need to increase the image size, dance with a tambourine and `e2fsck`, then please [create an issue](https://github.com/okineadev/Redmi-10C-MIUI-patches/issues/new) or PR here with updated instructions</sup>
 
 As in the previous section, disable the `shared_blocks` option:
 
@@ -287,4 +287,4 @@ If you like this project, consider supporting it by starring ⭐ it on GitHub, s
 [MIT License](./LICENSE) © 2025-present [Yurii Bogdan](https://github.com/okineadev)
 
 [uv]: https://github.com/astral-sh/uv#installation
-[sponsor_link]: https://github.com/okineadev/Redmi-10C-fog-MIUI-V14.0.8.0.TGEMIXM_13.0-patches?sponsor=1
+[sponsor_link]: https://github.com/okineadev/Redmi-10C-MIUI-patches?sponsor=1
