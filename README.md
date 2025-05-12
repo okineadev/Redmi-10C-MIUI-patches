@@ -229,6 +229,9 @@ rm -rf images/super/product_a
 
 ## ⚡ Flashing the firmware
 
+<!-- markdownlint-disable-next-line no-inline-html -->
+<img src="assets/stickers/flashing.webp" align="right" width="200" alt="">
+
 ### Requirements
 
 1. Unlocked bootloader
@@ -276,9 +279,6 @@ Make sure you haven't missed anything.
    ```
 
    Meanwhile, you can have tea while it flashes the firmware 🍵😌
-
-   <!-- markdownlint-disable-next-line no-inline-html -->
-   <img src="assets/stickers/happy.gif" width="180" alt="📱✨🐰">
 
 ---
 
