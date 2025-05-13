@@ -1,4 +1,3 @@
-Author: Okinea Dev <hi@okinea.dev>
 Description: Removed suspicious default permissions for audio recording and default permissions for network providers that the user doesn't even know about
 
 diff --git a/images/super/product_a/etc/default-permissions/default-permissions-dtag.xml b/images/super/product_a/etc/default-permissions/default-permissions-dtag.xml

@@ -64,7 +64,7 @@
 2. Apply all basic patches:
 
    ```bash
-   for patch in patches/*.patch; do git apply "$patch"; done
+   ./patches/01-basic/apply.sh
    ```
 
    To find out what these patches do, you can read the patch files, they describe in human language what has been changed.
@@ -97,7 +97,7 @@ sudo mount -t f2fs -o loop,rw images/userdata.raw.img images/userdata
 Now we can apply the patches to the `images/userdata` folder:
 
 ```bash
-for patch in patches/04-userdata.img/*.patch; do git apply "$patch"; done
+./patches/02-userdata.img/apply.sh
 ```
 
 Now we need to package the image back:
@@ -136,13 +136,19 @@ mkdir images/super
 
 ##### **`mi_ext_a.img`**
 
-Allocate a free space for changes:
+Allocate a little more space to work on the image:
 
 ```bash
 fallocate images/super/mi_ext_a.img -l 50M
 e2fsck -yf images/super/mi_ext_a.img
 resize2fs images/super/mi_ext_a.img 50M
 ```
+
+> [!WARNING]
+> Don't use `truncate` command for allocating free space, it will break the image and you won't be able to work on it. Use only `fallocate` and `resize2fs` command.
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+> <sup>If you know a more adequate mounting option without the need to increase the image size, dance with a tambourine and `e2fsck`, then please [create an issue](https://github.com/okineadev/Redmi-10C-MIUI-patches/issues/new) or PR here with updated instructions</sup>
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <img src="assets/stickers/magic.gif" width="180" alt="📱✨🐰" align="right">
@@ -157,7 +163,7 @@ Now we can mount the image:
 
 ```bash
 mkdir images/super/mi_ext_a
-sudo mount -t ext4 -o loop images/super/mi_ext_a.img images/super/mi_ext_a
+sudo mount -t ext4 -o loop,rw images/super/mi_ext_a.img images/super/mi_ext_a
 ```
 
 > [!IMPORTANT]
@@ -169,22 +175,30 @@ sudo mount -t ext4 -o loop images/super/mi_ext_a.img images/super/mi_ext_a
 Apply patches:
 
 ```bash
-for patch in patches/05-super.img/01-mi_ext_a.img/*.patch; do sudo git apply "$patch"; done
+./patches/03-super.img/01-mi_ext_a.img/apply.sh
 ```
 
-Unmount the image:
+After applying the patches, we need to unmount the image and shrink it to its actual size:
 
 ```bash
 sudo umount images/super/mi_ext_a
 rm -rf images/super/mi_ext_a
+e2fsck -yf images/super/mi_ext_a.img
+resize2fs -M images/super/mi_ext_a.img
+e2fsck -yf images/super/mi_ext_a.img
+resize2fs -M images/super/mi_ext_a.img
+resize2fs -M images/super/mi_ext_a.img
 ```
+
+> [!NOTE]
+> You **really need** to run `resize2fs -M` **two** or more times, because it doesn't compress the image to the minimum the first time, you need to do it until `resize2fs` says "**Nothing to do!**"
 
 ##### **`product_a.img`**
 
 <!-- markdownlint-disable-next-line no-inline-html -->
 <img src="assets/image.png" width="300" alt="🥷">
 
-In order for us to be able to unpack this file, we need to allocate a little more space in the image, the file itself is **4.5+ GB**, and we need to increase its size to **5 GB** (**Required**):
+Allocate a little more space in the image, the file itself is **4.5+ GB**, and we need to increase its size to **5 GB**):
 
 ```bash
 fallocate images/super/product_a.img -l 5G
@@ -205,25 +219,24 @@ Now we can mount the image:
 
 ```bash
 mkdir images/super/product_a
-sudo mount -t ext4 -o loop images/super/product_a.img images/super/product_a
+sudo mount -t ext4 -o loop,rw images/super/product_a.img images/super/product_a
 ```
 
-Next we can apply the patches, note that we also use `sudo git apply` here.
+Next we can apply the patches, note that we need `sudo` access here.
 
 ```bash
-for patch in patches/05-super.img/02-product_a.img/*.patch; do sudo git apply "$patch"; done
+./patches/03-super.img/02-product_a.img/apply.sh
 ```
 
-<!-- > [!TIP]
-> You can also edit `etc/build.prop` here 🙂 -->
-
-After applying the patches, we need to unmount the image and shrink it to its actual size:
+Then unmount the image:
 
 ```bash
 sudo umount images/super/product_a
 e2fsck -yf images/super/product_a.img
 resize2fs -M images/super/product_a.img
 e2fsck -yf images/super/product_a.img
+resize2fs -M images/super/product_a.img
+resize2fs -M images/super/product_a.img
 rm -rf images/super/product_a
 ```
 
@@ -275,8 +288,13 @@ Make sure you haven't missed anything.
 4. Run the following command to flash the firmware:
 
    ```bash
-   ./flash_all.sh
+   ./flash_all.sh --disable-verity --disable-verification
    ```
+
+> [!NOTE]
+> Here `--disable-verity --disable-verification` was added to disable the firmware integrity check at the `vbmeta` flashing step, otherwise when you boot the phone it will automatically throw you back into `fastboot` mode
+>
+> Of course we can make new signatures for system images, but this is the easiest way
 
    Meanwhile, you can have tea while it flashes the firmware 🍵😌
 

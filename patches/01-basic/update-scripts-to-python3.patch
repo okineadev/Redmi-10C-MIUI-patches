@@ -1,11 +1,10 @@
-Author: Okinea Dev <hi@okinea.dev>
 Description: This patch updates Python scripts to be compatible with Python 3.
 
-diff --git a/flash_gen_crc_list.py b/flash_gen_crc_list.py
+diff --git a/b/flash_gen_crc_list.py b/flash_gen_crc_list.py
 index 0000000..0000000 100755
---- a/flash_gen_crc_list.py
+--- a/b/flash_gen_crc_list.py
 +++ b/flash_gen_crc_list.py
-@@ -1,6 +1,6 @@
+@@ -1,13 +1,12 @@
  #!/usr/bin/env python
  from __future__ import print_function
 -import getopt, posixpath, signal, struct, sys
@@ -13,7 +12,23 @@ index 0000000..0000000 100755
  import os, copy
  import binascii
  
-@@ -103,7 +103,7 @@ def read_chunk_from_file(FH,blk_sz):
+ sparse_file_list = {
+     "super":"super.img",
+     "userdata":"userdata.img",
+-    "cust":"cust.img",
+     "metadata":"metadata.img",
+     "rescue":"rescue.img",
+ }
+@@ -74,7 +73,7 @@ def split_sparse_chunk(backed_sz,bck,sck):
+     else:
+       over_flag = 0
+ 
+-    split_sz = bck.bksz * ((split_max_len - backed_real_sz) / bck.bksz)
++    split_sz = int(bck.bksz * ((split_max_len - backed_real_sz) // bck.bksz))
+ 
+     sck.type = bck.type
+     sck.size = bck.size
+@@ -103,7 +102,7 @@ def read_chunk_from_file(FH,blk_sz):
      header_bin = FH.read(12)
      header = struct.unpack("<2H2I", header_bin)
      chunk.type = header[0]
@@ -22,7 +37,7 @@ index 0000000..0000000 100755
      chunk.size = header[2]
      chunk.total_sz = header[3]
      chunk.bksz = blk_sz
-@@ -140,14 +140,14 @@ def calulate_sparse_chunk_crc(chunk,crc):
+@@ -140,14 +139,14 @@ def calulate_sparse_chunk_crc(chunk,crc):
      if chunk.type == 0xCAC1:
        crc = binascii.crc32(chunk.data,crc)
      elif chunk.type == 0xCAC2:
@@ -40,7 +55,7 @@ index 0000000..0000000 100755
      backedsize = [SPARSE_IMAGE_HEAD_SZ]
  
      FH = open(path, 'rb')
-@@ -163,7 +163,7 @@ def gen_sparse_crc(path):
+@@ -163,7 +162,7 @@ def gen_sparse_crc(path):
      total_blks = header[6]
      total_chunks = header[7]
      image_checksum = header[8]
@@ -49,7 +64,7 @@ index 0000000..0000000 100755
  
      if magic != 0xED26FF3A:
        raise Exception("%s: Magic should be 0xED26FF3A but is 0x%08X"
-@@ -184,9 +184,9 @@ def gen_sparse_crc(path):
+@@ -184,9 +183,9 @@ def gen_sparse_crc(path):
      if image_checksum != 0:
        print("checksum=0x%08X" % (image_checksum))
  
@@ -61,7 +76,7 @@ index 0000000..0000000 100755
        rchunk = read_chunk_from_file(FH,blk_sz)
        split_flag = 1
        sck = SparseChunk()
-@@ -228,7 +228,7 @@ if __name__ == "__main__":
+@@ -228,7 +227,7 @@ if __name__ == "__main__":
            if not os.path.isfile(filepath):
              print(filepath + ' doesn\'t exist, skip it')
              continue
@@ -70,7 +85,7 @@ index 0000000..0000000 100755
              crc = gen_crc(filepath)
              if crc:
                f.write(ptn + ' ' + hex(crc & (2**32-1)) + '\n')
-@@ -239,10 +239,10 @@ if __name__ == "__main__":
+@@ -239,10 +238,10 @@ if __name__ == "__main__":
                raise Exception("sparse file error!!!!!!!")
              else:
                fs.write(ptn + ' ' + str(parts))

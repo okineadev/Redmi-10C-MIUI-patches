@@ -1,10 +1,4 @@
-Author: Okinea Dev <hi@okinea.dev>
-Description: This patch removes the `cust.img` file and all references to it from the flashing scripts, partition configurations, and related files.
-
-diff --git a/images/cust.img b/images/cust.img
-deleted file mode 100644
-index 5fe9a66d6adb20dc33d18125b4a1eb7e9c1a1657..0000000000000000000000000000000000000000
-Binary files a/images/cust.img and /dev/null differ
+Description: This patch removes all references to `cust.img` from the flashing scripts, partition configurations, and related files.
 
 diff --git a/flash_all.bat b/flash_all.bat
 index 0000000..0000000 100755
