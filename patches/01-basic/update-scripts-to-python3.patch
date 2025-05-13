@@ -1,6 +1,6 @@
 Description: This patch updates Python scripts to be compatible with Python 3.
 
-diff --git a/b/flash_gen_crc_list.py b/flash_gen_crc_list.py
+diff --git a/flash_gen_crc_list.py b/flash_gen_crc_list.py
 index 0000000..0000000 100755
 --- a/b/flash_gen_crc_list.py
 +++ b/flash_gen_crc_list.py

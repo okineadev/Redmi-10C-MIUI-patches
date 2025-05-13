@@ -6,7 +6,7 @@
   <img src="assets/hero.png" alt="MIUI" width="300">
 
   <!-- markdownlint-disable-next-line heading-start-left -->
-  # Redmi 10C debloated MIUI \[WIP\]
+  # Redmi 10C debloated MIUI
 
   [![sponsor](https://img.shields.io/badge/sponsor-FF6900?logo=githubsponsors&labelColor=FAFAFA&logoColor=FF6900)][sponsor_link]
 
@@ -115,9 +115,6 @@ Great! `images/userdata.img` is now patched
 ---
 
 #### **`images/super.img`**
-
-> [!WARNING]
-> This section is a WIP and is not yet complete and may change.
 
 To work on this partition we need to download `lpunpack` to unpack `super.img` and `lpmake` to pack it:
 
@@ -240,6 +237,175 @@ resize2fs -M images/super/product_a.img
 rm -rf images/super/product_a
 ```
 
+## 📦 `super.img` packing
+
+After all these modifications to the `super.img` sections, we need to repackage them
+
+To do this we need to use `lpmake`, here is the command to package our partitions into a new `super.new.img`:
+
+```bash
+./lpmake \
+   --metadata-size 65536 \
+   --metadata-slots 3 \
+   --super-name super \
+   \
+   --device super:9126805504 \
+   \
+   --group qti_dynamic_partitions_a:8589934592 \
+   --group qti_dynamic_partitions_b:8589934592 \
+   \
+   --partition product_a:none:<partition_size>:qti_dynamic_partitions_a    --image product_a=./images/super/product_a.img       --partition product_b:none:0:qti_dynamic_partitions_b \
+   --partition system_a:none:<partition_size>:qti_dynamic_partitions_a     --image system_a=./images/super/system_a.img         --partition system_b:none:0:qti_dynamic_partitions_b \
+   --partition system_ext_a:none:<partition_size>:qti_dynamic_partitions_a --image system_ext_a=./images/super/system_ext_a.img --partition system_ext_b:none:0:qti_dynamic_partitions_b \
+   --partition vendor_a:none:<partition_size>:qti_dynamic_partitions_a     --image vendor_a=./images/super/vendor_a.img         --partition vendor_b:none:0:qti_dynamic_partitions_b \
+   --partition mi_ext_a:none:<partition_size>:qti_dynamic_partitions_a     --image mi_ext_a=./images/super/mi_ext_a.img         --partition mi_ext_b:none:0:qti_dynamic_partitions_b \
+   \
+   --sparse \
+   --virtual-ab \
+   --output images/super.img
+```
+
+We need to fill in some data here, to do this we first need to get data about the current working partitions on the device with `adb shell lpdump`:
+
+```bash
+adb shell lpdump
+```
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable no-inline-html -->
+<details>
+<summary><b>Output</b></summary>
+
+```plaintext
+Slot 0:
+Metadata version: 10.2
+Metadata size: 1104 bytes
+Metadata max size: 65536 bytes
+Metadata slot count: 3
+Header flags: virtual_ab_device
+Partition table:
+------------------------
+  Name: product_a
+  Group: qti_dynamic_partitions_a
+  Attributes: none
+  Extents:
+    0 .. 6661167 linear super 2048
+------------------------
+  Name: product_b
+  Group: qti_dynamic_partitions_b
+  Attributes: none
+  Extents:
+------------------------
+  Name: system_a
+  Group: qti_dynamic_partitions_a
+  Attributes: none
+  Extents:
+    0 .. 2760231 linear super 6664192
+------------------------
+  Name: system_b
+  Group: qti_dynamic_partitions_b
+  Attributes: none
+  Extents:
+------------------------
+  Name: system_ext_a
+  Group: qti_dynamic_partitions_a
+  Attributes: none
+  Extents:
+    0 .. 1599671 linear super 9424896
+------------------------
+  Name: system_ext_b
+  Group: qti_dynamic_partitions_b
+  Attributes: none
+  Extents:
+------------------------
+  Name: vendor_a
+  Group: qti_dynamic_partitions_a
+  Attributes: none
+  Extents:
+    0 .. 1885663 linear super 11026432
+------------------------
+  Name: vendor_b
+  Group: qti_dynamic_partitions_b
+  Attributes: none
+  Extents:
+------------------------
+  Name: mi_ext_a
+  Group: qti_dynamic_partitions_a
+  Attributes: none
+  Extents:
+    0 .. 4559 linear super 12912640
+------------------------
+  Name: mi_ext_b
+  Group: qti_dynamic_partitions_b
+  Attributes: none
+  Extents:
+------------------------
+Super partition layout:
+------------------------
+super: 2048 .. 6663216: product_a (6661168 sectors)
+super: 6664192 .. 9424424: system_a (2760232 sectors)
+super: 9424896 .. 11024568: system_ext_a (1599672 sectors)
+super: 11026432 .. 12912096: vendor_a (1885664 sectors)
+super: 12912640 .. 12917200: mi_ext_a (4560 sectors)
+------------------------
+Block device table:
+------------------------
+  Partition name: super
+  First sector: 2048
+  Size: 9126805504 bytes
+  Flags: none
+------------------------
+Group table:
+------------------------
+  Name: default
+  Maximum size: 0 bytes
+  Flags: none
+------------------------
+  Name: qti_dynamic_partitions_a
+  Maximum size: 8589934592 bytes
+  Flags: none
+------------------------
+  Name: qti_dynamic_partitions_b
+  Maximum size: 8589934592 bytes
+  Flags: none
+------------------------
+```
+
+</details>
+<!-- markdownlint-restore -->
+
+Let's analyze the `lpdump` parameters
+
+- **`--metadata-size 65536`**: The maximum metadata size, `65536` will be enough, in the `lpdump` dump from our phone it was exactly what it said - `Metadata max size: 65536 bytes`
+- **`--metadata-slots 3`**: Number of slots, `2` for **A/B** devices and `1` for **non-A/B**, in our phone model `3` (possibly due to **virtual-A/B**?)
+- **`--device super:9126805504`**: The size of the entire `super` partition, it should be taken **only** from the `lpdump` dump, you can find this size in the `Block device table` section
+- **`--group qti_dynamic_partitions_[ab]:8589934592`**: Partition groups, their names and sizes should be taken from the `Group table` section of the `lpdump` dump, and yes, even the `qti_dynamic_partitions_b` group should have the same size as `qti_dynamic_partitions_a`, even if the first one has 0 bytes
+- **`--virtual-ab`**: In order for the metadata of the `super.img` image to match the original, we need to enable this checkbox, because this phone has **virtual-A/B** partitions
+
+Now we need to replace all `<partition_size>` with the partition sizes in bytes
+
+To do this, you can use this simple command which will output readable data about the partitions:
+
+```bash
+stat -c '%n %s' images/super/*_a.img | awk '{size=$2; cmd = "echo " size " | numfmt --to=si"; cmd | getline human_size; close(cmd); divisible = (size % 512 == 0) ? "Yes" : "No"; printf "%s %s %s %s\n", $1, human_size, size, divisible;}' | column -t --table-columns Partition,Size,"Size in Bytes","Divisible by 512"
+```
+
+The output will be something like this:
+
+```plaintext
+Partition                      Size  Size in Bytes  Divisible by 512
+images/super/mi_ext_a.img      2.4M  2334720        Yes
+images/super/product_a.img     3.5G  3410518016     Yes
+images/super/system_a.img      1.5G  1413238784     Yes
+images/super/system_ext_a.img  820M  819032064      Yes
+images/super/vendor_a.img      966M  965459968      Yes
+```
+
+Replace all `<partition_size>` in the `lpmake` command with your sizes from the `Size in Bytes` column, after what you can run the `lpmake` command
+
+> [!WARNING]
+> All sizes **MUST** be divisible by `512`, if not - then something is wrong with the image, try fixing it with `e2fsck -yf` and shrinking it again with `resize2fs -M`
+
 ## ⚡ Flashing the firmware
 
 <!-- markdownlint-disable-next-line no-inline-html -->
@@ -250,7 +416,7 @@ rm -rf images/super/product_a
 1. Unlocked bootloader
 2. `fastboot` installed
 
-   If not installed, you can install it using the following command:
+   If not installed, you can install it using the followiяng command:
 
    ```bash
    sudo apt install android-sdk-platform-tools -y
@@ -279,10 +445,10 @@ It will update the files `images/crclist.txt` and `images/sparsecrclist.txt`
 Make sure you haven't missed anything.
 
 > [!IMPORTANT]
-> Back up all your data and photos from your phone, as you will have to completely erase the data from your phone.
+> Back up all your data and photos from your phone, as it will completely erase the data from your phone.
 
 <!-- markdownlint-disable-next-line no-inline-html -->
-1. Boot into fastboot mode by holding the <kbd>Power</kbd> + <kbd>Volume Down</kbd> buttons until the phone vibrates and the fastboot screen appears.
+1. Boot into fastboot mode by holding the <kbd>Power</kbd> + <kbd>Volume Down</kbd> buttons until the phone vibrates and the **fastboot** screen appears.
 2. Connect the phone to your computer using a USB cable.
 3. Open a terminal and navigate to the folder with the firmware.
 4. Run the following command to flash the firmware:
@@ -291,14 +457,26 @@ Make sure you haven't missed anything.
    ./flash_all.sh --disable-verity --disable-verification
    ```
 
+   Meanwhile, you can have tea while it flashes the firmware 🍵😌
+
 > [!NOTE]
 > Here `--disable-verity --disable-verification` was added to disable the firmware integrity check at the `vbmeta` flashing step, otherwise when you boot the phone it will automatically throw you back into `fastboot` mode
 >
 > Of course we can make new signatures for system images, but this is the easiest way
 
-   Meanwhile, you can have tea while it flashes the firmware 🍵😌
-
 ---
+
+## 📝 Conclusions
+
+Please, never buy phones and other devices with internet access from Xiaomi, I think everything else is fine, their phones are good for their price, but as it says - _free cheese is only in a mousetrap_, instead they are stuffed with a lot of bloatware, eavesdropping, advertising in system applications, which looks like a crappy application from the Play Market
+
+Here you pay with your nerves.
+
+Even if you want to solve this yourself (like here), you will still need to give your real number to Xiaomi (read <https://gist.github.com/probonopd/926e485224f3e7394d7e569653522766#file-xiaomi_redmi_10c-md>).
+
+If I had known about this earlier - I would never have bought this phone.
+
+Better consider Samsung or Google Pixel
 
 ## 📰 Useful articles that have made a significant contribution to this project
 
