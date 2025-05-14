@@ -482,6 +482,7 @@ Better consider Samsung or Google Pixel
 
 - <https://blog.senyuuri.info/posts/2022-04-27-patching-android-super-images>
 - <https://xdaforums.com/t/editing-system-img-inside-super-img-and-flashing-our-modifications.4196625>
+- <https://xdaforums.com/t/redmi-10c-after-modifying-and-flashing-super-img-the-phone-gets-stuck-in-bootloop.4736034>
 
 ## ❤️ Support
 
