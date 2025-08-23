@@ -488,9 +488,11 @@ Better consider Samsung or Google Pixel
 
 If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or [buying me a coffee ☕][sponsor_link]
 
+[![Sponsors](https://raw.githubusercontent.com/okineadev/static/main/sponsors.svg)](https://github.com/sponsors/okineadev)
+
 ## 📜 License
 
 [MIT License](./LICENSE) © 2025-present [Yurii Bogdan](https://github.com/okineadev)
 
 [uv]: https://github.com/astral-sh/uv#installation
-[sponsor_link]: https://github.com/okineadev/Redmi-10C-MIUI-patches?sponsor=1
+[sponsor_link]: https://github.com/sponsors/okineadev
