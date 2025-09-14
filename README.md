@@ -24,7 +24,7 @@
 ## 🛠️ Getting started
 
 > [!WARNING]
-> **Disclaimer**: These patches are under development and have not yet been sufficiently tested, all risks associated with modifying system files are your own responsibility.
+> **Disclaimer**: All risks associated with modifying system files are your own responsibility.
 
 ### Prerequisites
 
@@ -35,10 +35,26 @@
 
   These instructions use the `fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz` image, you can use a different image, but then the patches may not apply
 
+  Official download link - <https://hugeota.d.miui.com/V14.0.10.0.TGEEUXM/fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz>
+
 ## 📦 Unpacking the Archive
 
 1. Copy the ROM archive to a convenient directory.
 2. Verify the archive checksum to verify its integrity:
+
+   ### [BLAKE3](https://github.com/BLAKE3-team/BLAKE3) (Reccomended ✅ (`4x` faster than MD5 (`52` seconds faster in this case)))
+
+   ```bash
+   b3sum fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz
+   ```
+
+   The result should match this checksum:
+
+   ```plaintext
+   a06703319516b11582e99b2d8923506193e30555d612593d76f18c451da3b0bd
+   ```
+
+   ### MD5
 
    ```bash
    md5sum fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz
@@ -52,7 +68,7 @@
 
    If you use a different image, the checksum must match the one listed on the website from which you downloaded it.
 
-3. Extract the archive:
+4. Extract the archive:
 
    ```bash
    tar -xf fog_eea_global_images_V14.0.10.0.TGEEUXM_20250224.0000.00_13.0_eea_f07e576e57.tgz
@@ -61,7 +77,12 @@
 ## 🩹 Applying the Patches
 
 1. Copy the patch folder from this repository to the folder with the extracted ROM
-2. Apply all basic patches:
+2. Initialize the `git` repository so that patches can be applied (it does not affect performance)
+
+   ```bash
+   git init
+   ```
+3. Apply all basic patches:
 
    ```bash
    ./patches/01-basic/apply.sh
