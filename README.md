@@ -76,7 +76,23 @@
 
 ## 🩹 Applying the Patches
 
-1. Copy the patch folder from this repository to the folder with the extracted ROM
+### 🍜 With automated script
+
+You can simply run a script that will perform all the actions (including advanced patches) described below, suitable if you want to patch images easily and quickly
+
+First copy the `patches` and `scripts` folders to the folder with the extracted ROM, then run this command in that folder:
+
+```bash
+./scripts/cookimg.sh
+```
+
+When done, you can skip the instructions below and go straight to the [`super.img` packing](#-superimg-packing) section
+
+### 👨‍🏭 Manually
+
+Just follow the instructions and go ahead 😉
+
+1. Copy the `patches` folder from this repository to the folder with the extracted ROM
 2. Initialize the `git` repository so that patches can be applied (it does not affect performance)
 
    ```bash
